@@ -1,0 +1,15 @@
+
+
+@media(min-width:641px) and (max-width:1000px){
+    .information img{
+        display: none;
+    }
+    .stages{
+        height: 741px;
+    }
+    .stages div{
+        height: 400px;
+        flex-direction: column;
+    }
+}
+/* planshet versiya tugadi */

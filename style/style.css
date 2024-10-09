@@ -1,0 +1,586 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1600px;
+  height: 7500px;
+  max-width: 1600px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+}
+nav {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Raleway;
+  gap: 30px;
+}
+nav .icons {
+  display: flex;
+  gap: 20px;
+}
+nav .icons img:nth-child(1) {
+  width: 24px;
+  height: 24px;
+}
+nav .icons img:nth-child(2) {
+  width: 15px;
+  height: 20px;
+}
+nav .number {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+nav .number img {
+  width: 22px;
+  height: 22px;
+}
+nav .number p {
+  font-family: lato;
+  font-size: 20px;
+  font-weight: 400;
+}
+header {
+  width: 100%;
+  height: 687px;
+  /* border: 2px solid blue; */
+  position: relative;
+  background-image: url(../images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png);
+  background-size: cover;
+  /* background-color: linear-gradient(180deg, rgba(0, 0, 0, 0.2) -13.19%, rgba(0, 0, 0, 0.85) 94.01%); */
+}
+.header-gradient{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.845));
+}
+header pre:nth-child(1) {
+  font-family: lato;
+  font-weight: 700;
+  font-size: 80px;
+  color: white;
+  line-height: 67px;
+  position: absolute;
+  top: 0;
+  top: 100px;
+  left: 526px;
+}
+header pre:nth-child(2) {
+  font-family: Raleway;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  line-height: 24px;
+  position: absolute;
+  top: 280px;
+  left: 526px;
+}
+header button {
+  width: 260px;
+  height: 60px;
+  border: none;
+  background-color: #ae7b3c;
+  color: white;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 16px;
+  position: absolute;
+  left: 630px;
+  top: 420px;
+}
+section{
+  width: 1200px;
+  height: 596px;
+  /* border: 2px solid black; */
+  margin: 70px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+section p{
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 46px;
+}
+section .menus{
+  width: 100%;
+  height: 458px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+section .menus div{
+  height: 100%;
+  width: 384px;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+section .menus div h3{
+  color: gray;
+  font-family: Raleway;
+}
+section .menus div p{
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Raleway;
+}
+section .menus div img{
+  height: 320px;
+}
+.our__offer{
+  width: 100%;
+  height: 688px;
+  /* border: 1px solid white; */
+  background-color: #3D4A39;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.our__offer p{
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  color: white;
+}
+.our__offer .infos{
+  width: 80%;
+  height: 500px;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.our__offer .infos .superior{
+  height: 100%;
+  width: 30%;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.information{
+  width: 1360px;
+  height: 439px;
+  /* border: 1px solid black; */
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.information img:nth-child(1){
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.information img:nth-child(2){
+  position: absolute;
+  right: -20px;
+  top: 140px;
+}
+.information pre{
+  font-size: 36px;
+  font-family: Raleway;
+  font-weight: 600;
+}
+.information footer{
+  width: 1200px;
+  height: 178px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.information footer div{
+  height: 100%;
+  width: 49%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.information footer div pre{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Raleway;
+  color: gray;
+}
+.advantages{
+  width: 1200px;
+  height: 1052px;
+  /* border: 1px solid black; */
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.advantages h1{
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+}
+.advantages .box{
+  width: 100%;
+  height: 870px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+}
+.advantages .box .left{
+  width: 50%;
+  height: 100%;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+.advantages .box .right{
+  width: 50%;
+  height: 100%;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+.advantages .box .left div{
+  width: 100%;
+  height: 20%;
+  border-bottom: 1px solid gray;
+  position: relative;
+}
+.advantages .box .left div p{
+  font-family: Raleway;
+  color: gray;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  font-size: 24px;
+}
+.advantages .box .left div img{
+  position: absolute;
+  left: 100px;
+  top: -40px;
+}
+.advantages .box .right div{
+  width: 100%;
+  height: 20%;
+  border-bottom: 1px solid gray;
+  position: relative;
+}
+.advantages .box .right div h2{
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+.advantages .box .right div p{
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Raleway;
+  top: 100px;
+  left: 20px;
+  color: gray;
+}
+.registration{
+  width: 1600px;
+  height: 696px;
+  /* border: 1px solid black; */
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.registration .regis{
+  width: 800px;
+  height: 100%;
+  background-color: #3D4A39;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.registration .regis h1{
+  color: white;
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  margin-left: 170px;
+}
+.registration .regis p{
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  margin-left: 170px;
+}
+.registration .regis input{
+  background-color: none;
+  height: 33px;
+  width: 300px;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid gray;
+  background-color: #3D4A39;
+  margin-left: 170px;
+}
+.registration .regis button{
+  width: 300px;
+  height: 60px;
+  border: none;
+  background-color: #AE7B3C;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Raleway;
+  margin-left: 170px;
+}
+.registration .photo{
+  width: 800px;
+  height: 100%;
+}
+.stages{
+  width: 1215px;
+  height: 458px;
+  /* border: 2px solid black; */
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.stages h1{
+  font-family: raleway;
+  font-size: 46px;
+  font-weight: 600;
+  text-align: center;
+}
+.stages div{
+  width: 100%;
+  height: 260px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.stages div .menus{
+  width: 240px;
+  height: 100%;
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.stages div .menus img{
+  width: 60px;
+  height: 60px;
+}
+.stages div .menus h2{
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 600;
+}
+.stages div .menus pre{
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+}
+.prize{
+  width: 100%;
+  height: 483px;
+  background-color: #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  margin-top: 70px;
+}
+.prize .bag{
+  position: absolute;
+  left: 300px;
+  top: 120px;
+}
+.prize .plita{
+  position: absolute;
+  right: 300px;
+  top: 120px;
+}
+.prize h1{
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+}
+.prize p{
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.prize button{
+  width: 260px;
+  height: 60px;
+  background-color: #AE7B3C;
+  border: none;
+  color: white;
+  font-family: Raleway;
+  font-family: 500;
+  font-size: 20px;
+}
+.registration2{
+  width: 1600px;
+  height: 696px;
+  /* border: 1px solid black; */
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.registration2 .regis2{
+  width: 800px;
+  height: 100%;
+  background-color: #3D4A39;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.registration2 .regis2 h1{
+  color: white;
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  margin-left: 170px;
+}
+.registration2 .regis2 p{
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  margin-left: 170px;
+}
+.registration2 .regis2 input{
+  background-color: none;
+  height: 33px;
+  width: 300px;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid gray;
+  background-color: #3D4A39;
+  margin-left: 170px;
+}
+.registration2 .regis2 button{
+  width: 300px;
+  height: 60px;
+  border: none;
+  background-color: #AE7B3C;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Raleway;
+  margin-left: 170px;
+}
+.registration2 .photo2{
+  width: 800px;
+  height: 100%;
+}
+footer{
+  width: 100%;
+  height: 210px;
+  border-bottom: 4px solid gray;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer div{
+  height: 100%;
+  width: 160px;
+  /* border: 1px solid blue; */
+}
+footer div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+footer div:nth-child(2){
+  display: flex;
+  justify-content: center;
+}
+footer div:nth-child(2) ul{
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+footer div:nth-child(3){
+  display: flex;
+  justify-content: center;
+}
+footer div:nth-child(3) ul{
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+footer div:nth-child(4){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer div:nth-child(4) p{
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 600;
+}
+footer div:nth-child(4) button{
+  width: 280px;
+  height: 60px;
+  background-color: #AE7B3C;
+  color: white;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
